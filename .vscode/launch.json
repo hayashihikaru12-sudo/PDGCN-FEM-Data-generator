@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run HDF5 FEM Preprocess",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_fem_preprocess.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "python": "/root/miniconda3/envs/fenics-env/bin/python"
+    }
+  ]
+}

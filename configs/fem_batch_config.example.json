@@ -1,0 +1,23 @@
+{
+  "material": {
+    "rho": 1575.0,
+    "Cp": 1600.0,
+    "K_parallel": 5.9,
+    "k_ratio": 0.05,
+    "heat_source_effective_thickness": 0.00015,
+    "heat_source_absorptivity": 1.0
+  },
+  "temperature": {
+    "T_amb": 120.0,
+    "unit": "degC"
+  },
+  "solver": {
+    "time_scheme": "backward_euler",
+    "linear_solver": "default"
+  },
+  "output": {
+    "write_pvd": false,
+    "pvd_dir": "outputs/pvd",
+    "pvd_stride": 1
+  }
+}

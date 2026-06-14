@@ -1,0 +1,20 @@
+{
+  "fem_config_path": "configs/fem_batch_config.example.json",
+  "overwrite": true,
+  "in_place": false,
+  "monitor": {
+    "enabled": true,
+    "step_stride": 1
+  },
+  "jobs": [
+    {
+      "input_hdf5_dir": "HDF5_Files",
+      "output_hdf5_dir": "outputs",
+      "file_pattern": "*.h5",
+      "recursive": false,
+      "write_pvd": true,
+      "pvd_dir": "outputs/pvd",
+      "pvd_stride": 20
+    }
+  ]
+}

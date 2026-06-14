@@ -1,3 +1,7 @@
 PDGCN/
 HDF5_Files/
 __pycache__/
+outputs/
+outputs_pvd_test/
+*.pyc
+.pytest_cache/
